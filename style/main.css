@@ -38,11 +38,13 @@ header nav a{
     text-decoration: none;
     color: aliceblue;
     margin-right: 20px;
+    
 }
 
 /*Alterando a cor do elemento quando passamos o cursor do mouse por cima*/
 header nav a:hover{
     color:blanchedalmond;
+    text-decoration:underline;
 }
 
 /*Filme Principal*/
@@ -72,6 +74,7 @@ header nav a:hover{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
 }
 
 /*Configurando os botoes do filme principal*/
@@ -96,7 +99,7 @@ header nav a:hover{
 
 /*Configurando os icones do botao do filme principal*/
 .botao i{
-    margin-right: 8px;
+    margin-right: 12px;
 }
 
 /*Alterando todos os containers*/
@@ -107,6 +110,14 @@ header nav a:hover{
 /*Alterando o container do filme principal*/
 .filme-principal .container{
     width: 60%;
+}
+
+.subtitulos{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
 }
 
 .box-filme{
